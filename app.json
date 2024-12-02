@@ -84,7 +84,7 @@
         "STATUS_VIEW": {
             "description": "status views use true for view all status or use only-view=jid to only view given jid status or use not-view=jid to not view the one person status and view anothers",
             "required": false,
-            "value":"false"
+            "value":"true"
         },
         "REJECT_CALL": {
             "description": "automatic reject call",
@@ -104,12 +104,12 @@
         "STATUS_REPLY": {
             "description": "Reply to status",
             "required": false,
-            "value":"false"
+            "value":"true"
         },
         "STATUS_REPLY_MSG": {
             "description": "Status reply message to send",
-            "required": false,
-            "value":"*Nice Status Brother 🦫✨*"
+            "required": true,
+            "value":"*Nice Status 💯 just keep posting and i promise I'll always view ... even if am not the first one ✨*"
         },
         "CMD_REACTION": {
             "description": "react to commands",
